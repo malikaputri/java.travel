@@ -1,0 +1,23 @@
+ body{
+	margin:8px;
+	padding:5px;
+	background-color: white;
+}
+ul{
+	list-style-type: none;
+	float: right;
+	margin-top: 15px;
+}
+ul li{
+	display: inline-block;
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+}
+ul li a:hover{
+	background-color: white;
+	color: black;
+}

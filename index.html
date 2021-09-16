@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+	<body>
+		<style>
+			#footer{
+    height:50px;
+    line-height:50px;
+    background:#333;
+    color:#fff;
+}
+		.slide{
+			max-width: auto;
+			height: 90%;
+			position: relative;
+		}
+		.slide1,.slide2,.slide3{
+			position: absolute;
+			width: 100%;
+			height: 97%;
+		}
+		.slide1{
+			background: url(slide1.jpg)no-repeat center;
+			background-size: cover;
+			animation: fade 8s infinite;
+			-webkit-animation:fade 8s infinite;
+		}
+		.slide2{
+			background: url(cadi.jpg)no-repeat center;
+			background-size: cover;
+			animation: fade2 8s infinite;
+			-webkit-animation:fade2 8s infinite;
+		}
+		.slide3{
+			background: url(slide3.jpg)no-repeat center;
+			background-size: cover;
+			animation: fade3 8s infinite;
+			-webkit-animation:fade3 8s infinite;
+		}
+		@keyframes fade{
+			0%{opacity: 1}
+			33.333%{opacity: 0}
+			66.666%{opacity:0 }
+			100%{opacity:1 }
+		}
+		@keyframes fade2{
+			0%{opacity: 0}
+			33.333%{opacity: 1}
+			66.666%{opacity:0 }
+			100%{opacity: 0}
+		}
+		@keyframes fade3{
+			0%{opacity: 0}
+			33.333%{opacity: 0}
+			66.666%{opacity:1 }
+			100%{opacity:0 }
+		}
+		.nav-list {
+        list-style-type: none;
+        display: flex;
+        text-transform: uppercase;
+        }
+        .nav-link {
+            position: relative;
+            color: #EEE;
+            letter-spacing: 2px;
+            text-decoration: none;
+            font-family: 'poppins';
+            padding: 12px;
+            margin: 0 18px;
+        }
+        .nav-link::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 2px;
+            transition: width 0.2s ease-out;
+            background-color: 	#87bdce;
+        }
+        .nav-link:hover::before {
+            width: 100%;
+        }
+      
+		</style>
+		<header>
+		
+
+    <div class="container">
+		<nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+		  <div class="container-fluid">
+				<p style = "font-family: Courier New; font-size: 1.8rem; margin-top: 1rem;">
+				Java.Travel
+				</p>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+			  <span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+			  <div class="navbar-nav" style="margin-left: auto;">
+			  <p style = "font-family: Didot; font-size: 1.5rem; margin-top: 1rem;"><a class="nav-link" aria-current="page" href="index.html">Home</a></p>
+			  <p style = "font-family: Didot; font-size: 1.5rem; margin-top: 1rem;"><a class="nav-link" href="gallery.html">Gallery</a></p>
+			  </div>
+			</div>
+		  </div>
+		</nav>
+		<hr color="black" width="100%">
+    <table width="100%" border="0">
+    	<div class="slide">
+    		<div class="slide1"></div>
+    		<div class="slide2"></div>
+    		<div class="slide3"></div>
+    		 <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	<hr color="black" width="100%">	
+		</div>
+		<center>
+			<h2>The Culture Of Java</h2>
+			<p align="center">Indonesia adalah negara yang kaya akan kekayaan alamnya yang sangat luar biasa.Jawa termasuk kedalam tempat yang sangat banyak diminati oleh banyak turis dan wisatawan dari luar.Mereka ingin menikmati kekayaan alam yang masih alami di  Indonesia seperti di Yogyakarta,Bromo dan masih banyak lagi destinasi lainnya yang sudah disajikan di jasa Java.travel ini.Banyak bukti yang menunjukkan jika kota Yogya menjadi destinasi wisata yang paling menarik di Indonesia terlebih  lagi, provinsi yogyakarta memiliki tempat wisata alam yang lengkap, mulai dari cagar budaya yang berupa candi, gunung disebelah utara kota Yogya dan pantai di sebelah selatannya. Sehingga sangat lengkap dibandingkan dengan kota lainnya di Indonesia. Meskipun ada beberapa kota yang juga tak kalah menarik dengan yogyakarta.</p>
+			<head>
+				<title>The Culture Of Java</title>
+				<link rel="stylesheet" type="text/css" href="style.css">	
+			</head>
+			<div class="row">
+
+				<div class="column">
+				  <div class="card">
+					<center><div class="fotoB" style="background:url(1.jpg);background-size:cover;"></div></center>
+					<p><b>Candi Ijo</b>
+						<br>Tiket Masuk :<br>
+						Rp 5.000<br>
+						Jam Buka Candi Ijo:<br>
+						Senin - Minggu: 06.00 - 17.00 WIB
+					</p>
+				  </div>
+				</div>
+
+				<div class="column">
+				  <div class="card">
+					<center><div class="fotoB" style="background:url(2.jpg);background-size:cover;"></div></center>
+					<p><b> Plaosan</b>
+						<br>Tiket Masuk :<br>
+						Rp 3.000<br>
+						Jam Buka Candi Plaosan:<br>
+						Senin - Minggu: 06.00 - 17.00 WIB
+					</p>
+				  </div>
+				</div>
+
+				<div class="column">
+				  <div class="card">
+					<center><div class="fotoB" style="background:url(4.jpg);background-size:cover;"></div></center>
+					<p><b>Candi Pawon</b>
+					<br>Tiket Masuk:<br>		
+					Rp 3.500<br>
+					Jam Buka Candi Pawon :<br>
+					Senin - Minggu: pukul 06.00 - 17.00 WIB
+					</p>
+				  </div>
+				</div>
+
+			  </div>
+
+			  <div class="column">
+				<div class="card">
+				  <center><div class="fotoB" style="background:url(3.jpg);background-size:cover;"></div></center>
+				  <p><b>Pantai Indasari</b>
+					<br>Tiket Masuk:<br>
+					Rp2.000 (sepeda motor),
+					Rp5.000 (mobil),
+					Rp20.000 (bus)<br>
+					Jam Buka Pantai : <br>
+					Senin - Minggu: buka 24 jam
+				  </p>
+				</div>
+			  </div>
+
+			</div>
+
+			<div class="column">
+				<div class="card">
+				  <center><div class="fotoB" style="background:url(5.jpg);background-size:cover;"></div></center>
+				  <p><b>Pantai Drini</b>
+				<br>Tiket Masuk :<br>
+				Rp2.000 (sepeda motor),
+				Rp5.000 (mobil),
+				Rp20.000 (bus)<br>
+				Jam Buka Pantai Drini<br>
+				Senin - Minggu: buka 24 jam</p>
+				</div>
+			  </div>
+
+			</div>
+
+			<div class="column">
+				<div class="card">
+				  <center><div class="fotoB" style="background:url(6.jpg);background-size:cover;"></div></center>
+				  <p><b>Pantai Krakal</b>
+					<br>Tiket Masuk:</br>
+					Rp2.000 (sepeda motor),
+					Rp5.000 (mobil),
+					Rp20.000 (bus)<br>
+					Jam Buka Pantai Krakal:<br>
+					Senin - Minggu: buka 24 jam
+					</p>
+				</div>
+			  </div>
+
+			</div>
+			  
+			
+	  </form>
+  </div>
+
+	</div>
+</table>
+</div>
+</div>
+
+	
+</head>
+
+</body>
+<div id="footer">
+	Copyright &copy; 2014
+	Designed by Putri Nikita Malika Hasan
+	<br>
+</div>
+</body>
+</head>
+
+</html>
